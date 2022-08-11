@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wapper">
+        <div class="player">
+            <div class="app__music">
+                <h1 class="header">Now Play</h1>
+        
+                <div class="play-music-disc">
+                    <div class="play-music__music-disc">
+                        <div class="play-music__music-dis-url">
+                            <div class="play-music__music-dis-url-image" style="background-image: url('/assets/img/song2.jpg')"></div>
+                        </div>
+        
+                    </div>  
+                </div>
+    
+                <div class="song">
+                    <h2 class="name-of-song">Mơ hồ</h2>
+                    <p class="name-singer">Bùi Anh Tuấn</p>
+                </div>
+    
+                <div class="progress">
+                    <audio id="audio" src=""></audio>
+
+                    <div class="progress-bar">
+                        <div class="progress-achieved">
+                            <input id="progress" class="progress-input" type="range" value="0" step="1" min="0" max="100">
+                        </div>
+                    </div>
+                    <div class="progress-time">
+                        <span class="begin">00:00</span>
+                        <span class="end">00:00</span>
+                    </div>
+                </div>
+    
+                <div class="play-music__control">
+                    
+                    <div class="play-music__player">
+                        <div id="list-music" class="play-music__player-icon">
+                            <div href="" class="play-music__player-link">
+                                <i class="icon-player fa-solid fa-list"></i>
+                                
+                            </div>
+                        </div>
+                        <div class="play-music__player-icon">
+                            <div href="" class="play-music__player-link">
+                                <i class="icon-player fa-solid fa-backward"></i>
+                            </div>
+                        </div>
+                        <div class="play-music__player-icon start-end">
+                            <div href="" class="play-music__player-link">
+                                <i class="play-icon icon-player-start-end fa-solid fa-pause"></i>
+                                <i class="play-icon icon-player-end-start fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="play-music__player-icon">
+                            <div href="" class="play-music__player-link">
+                                <i class="icon-player fa-solid fa-forward"></i>
+                            </div>
+                        </div>
+                        <div class="play-music__player-icon">
+                            <div href="" class="play-music__player-link">
+                                <i class="icon-player fa-solid fa-shuffle"></i>
+                            </div>
+                        </div>
+        
+                    </div>
+    
+                    <div class="volum-area">
+                        <span class="volum-icon">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </span>
+                        <div class="volum-bar">
+                            <div class="volum"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="play-list">
+                <div class="play-list__header">
+                    <span class="my__play-list">My playlist</span>
+                    <div id="exitplaylist">
+                        <i class="exit fa-solid fa-xmark"></i>
+
+                    </div>
+                </div>
+                <ul class="list-song">
+                    <!-- <li class="playlist-item">
+                        <div class="playlist-thumb" style="background-image: url('/assets/img/song2.jpg')"></div>
+                        <div class="song-info">
+                           <span class="playlist-title">Em của ngày hôm qua</span>
+                           <span class="playlist-author">sơn tùng mtp</span>
+                        </div>
+                        <audio class="duration-display" preload="metadata" src="/assets/music/song1.mp3"></audio>
+                        <div class="wave">03:30</div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>
